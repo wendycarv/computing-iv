@@ -1,0 +1,146 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		A2465BB32B5EE2E9008FCD53 /* obj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = obj; sourceTree = "<group>"; };
+		A2465BB42B5EE2E9008FCD53 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		A2465BB52B5EE2E9008FCD53 /* bin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bin; sourceTree = "<group>"; };
+		A2465BB62B5EE2E9008FCD53 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A2465BB72B5EE2E9008FCD53 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A2465BAD2B5EE2E9008FCD53 = {
+			isa = PBXGroup;
+			children = (
+				A2465BB32B5EE2E9008FCD53 /* obj */,
+				A2465BB42B5EE2E9008FCD53 /* .DS_Store */,
+				A2465BB52B5EE2E9008FCD53 /* bin */,
+				A2465BB62B5EE2E9008FCD53 /* Makefile */,
+				A2465BB72B5EE2E9008FCD53 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A2465BB22B5EE2E9008FCD53 /* testing */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = A2465BB82B5EE2E9008FCD53 /* Build configuration list for PBXLegacyTarget "testing" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/wendy/Desktop/school/uml/2023-2024 — sophomore year  /spring 2024/computing iv/lectures/testing";
+			dependencies = (
+			);
+			name = testing;
+			passBuildSettingsInEnvironment = 1;
+			productName = testing;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		A2465BAE2B5EE2E9008FCD53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = A2465BB12B5EE2E9008FCD53 /* Build configuration list for PBXProject "testing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2465BAD2B5EE2E9008FCD53;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2465BB22B5EE2E9008FCD53 /* testing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		A2465BAF2B5EE2E9008FCD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		A2465BB02B5EE2E9008FCD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		A2465BB92B5EE2E9008FCD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = testing;
+			};
+			name = Debug;
+		};
+		A2465BBA2B5EE2E9008FCD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = testing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2465BB12B5EE2E9008FCD53 /* Build configuration list for PBXProject "testing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2465BAF2B5EE2E9008FCD53 /* Debug */,
+				A2465BB02B5EE2E9008FCD53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2465BB82B5EE2E9008FCD53 /* Build configuration list for PBXLegacyTarget "testing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2465BB92B5EE2E9008FCD53 /* Debug */,
+				A2465BBA2B5EE2E9008FCD53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2465BAE2B5EE2E9008FCD53 /* Project object */;
+}
